@@ -1,0 +1,122 @@
+ 
+body {
+   background: #f4f2ec url(./matematica_1.jpg) repeat;
+ 
+}
+
+h2{
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+.container{
+  position: relative;
+  margin-top: 80px; 
+  margin-left: 380px;
+  max-height: 620px;
+  max-width: 620px;
+ /* margin: 50px auto;*/
+  background: #FFFF00;
+  padding: 3px;
+  border-radius: 7%;
+}
+ 
+form input, form label, form button {
+   position: relative;
+   margin-left: 95px;
+   margin-bottom: 420px;  
+   border:chocolate;
+   display: block;
+   width: 50%;
+   margin-bottom: 5px;
+}
+
+ 
+form input {
+   position: relative;
+   margin-left: 32px;
+   max-width: 90px;
+   background: #54eeae;
+   font-size: 24px;
+   height: 50px;
+   padding: 0 7px;
+   border-radius: 25px;
+   outline: none;
+   border: 2px;
+}
+ 
+form input:focus {
+   outline: 3px solid var(--primary-color);
+}
+
+.P1 {
+    position: relative;
+    padding-left: 7px;
+    
+ }
+
+
+ .P2 {
+   position: relative;
+   margin-left: 25px;
+   margin-bottom: 60px;
+   
+}
+
+form button { 
+   position: relative;
+   max-width: 240px;
+   max-height: 240x;
+   background: var(--primay-color);
+   color: rgb(18, 19, 18);
+   font-size: 26px;
+   text-align: center;
+   font-weight: 120px;
+   cursor: pointer;
+   /*border-radius: 7%;*/
+}
+ 
+.calc {
+   margin-top: -265px;
+   
+}
+
+
+form button:hover {
+  background: rgb(250, 143, 2);
+  
+
+}
+
+.calc {
+   position: relative;
+   margin-bottom: 250px;
+   margin-left: 250px;
+}
+
+.paragrafo-resultado, .bad{
+     position: relative;
+     margin-left:180px;
+     background: rgb(109, 255, 182);
+     width: 200px;
+     height: 100px;
+     border-radius: 10%;      
+}
+
+.bad{
+  background: rgb(255, 150, 150);
+  width: 210px;
+  height: 96px;
+  border-radius: 17%;
+}
+
+/*
+.concavidade {
+  width: 210px;
+  height: 96px;
+  border-radius: 17%;
+}*/
+.resultado {
+   margin-bottom: -40px;
+   margin-left: 120px;
+}
